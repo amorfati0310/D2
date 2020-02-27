@@ -16,7 +16,7 @@ module.exports = {
       {
         title: `02`,
         collapsable: true,
-        children: ["/02/0224", "/02/0225"]
+        children: ["/02/0224", "/02/0225", "/02/0226", "/02/0227"]
       },
       {
         title: `WD`,
