@@ -1,0 +1,28 @@
+{
+  "name": "d2-daily-dali",
+  "version": "1.0.0",
+  "description": "Daily Dali",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorfati0310/D2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorfati0310/D2/issues"
+  },
+  "homepage": "https://github.com/amorfati0310/D2#readme",
+  "devDependencies": {
+    "vuepress": "^1.3.1"
+  },
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1"
+  }
+}
