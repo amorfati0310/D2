@@ -16,29 +16,34 @@ module.exports = {
       {
         title: `02`,
         collapsable: true,
-        children: ["/02/0224", "/02/0225", "/02/0226", "/02/0227"]
+        children: ["/02/0224", "/02/0225", "/02/0226", "/02/0227", "/02/0228"],
+      },
+      {
+        title: `03`,
+        collapsable: true,
+        children: ["/03/0302"],
       },
       {
         title: `WD`,
         collapsable: true,
-        children: ["WD/24"]
-      }
+        children: ["WD/24"],
+      },
     ],
     nav: [
       {
         text: "D2",
-        link: "/d2"
+        link: "/d2",
       },
       {
         text: "Weekly Dali",
-        link: "/wd"
-      }
-    ]
+        link: "/wd",
+      },
+    ],
   },
   serviceWorker: true,
   markdown: {
     extendMarkdown: md => {
       md.use(require("markdown-it-task-lists"));
-    }
-  }
+    },
+  },
 };
